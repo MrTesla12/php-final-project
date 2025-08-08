@@ -1,0 +1,16 @@
+# Environment settings
+.env
+# Ignore Composer and NPM dependencies
+/vendor/
+/node_modules/
+# Ignore uploaded images and documents
+/uploads/
+# Ignore IDE/editor files
+.vscode/
+*.sublime-workspace
+# Ignore log and cache files
+*.log
+*.cache
+# OS-specific
+.DS_Store
+Thumbs.db
