@@ -85,31 +85,3 @@ Login using your email and password.
 Access Manage Users to edit or delete admins.
 
 Browse Content, create new posts, edit existing ones, or delete as needed.
-
-Folder Structure
-
-php-final-project/
-│
-├── content/              # Article CRUD pages
-│   ├── content.php       # List all posts
-│   ├── add_content.php   # Create a post
-│   ├── edit_content.php  # Update a post
-│   └── delete_content.php# Delete a post
-├── css/
-│   └── style.css         # Custom styles
-├── includes/
-│   ├── db.php            # PDO connection
-│   ├── header.php        # Shared header & navbar
-│   └── footer.php        # Shared footer
-├── uploads/              # User avatar uploads
-├── sql/
-│   └── schema.sql        # Database schema
-├── index.php             # Home page
-├── register.php          # Register a new admin
-├── login.php             # Login page
-├── logout.php            # Logout script
-├── users.php             # Admin management list
-├── edit_user.php         # Edit admin user
-├── delete_user.php       # Delete admin user
-└── README.md             # Project documentation
-
